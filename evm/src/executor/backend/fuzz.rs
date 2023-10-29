@@ -10,6 +10,9 @@ use crate::{
 };
 use ethers::prelude::{H256, U256};
 
+use revm::primitives::B160; //henrysyp
+
+
 use revm::{
     db::DatabaseRef,
     primitives::{AccountInfo, Bytecode, Env, ResultAndState, B160, B256, U256 as rU256},

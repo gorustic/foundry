@@ -15,6 +15,9 @@ use ethers::{
     utils::keccak256,
 };
 pub use in_memory_db::MemDb;
+
+use revm::primitives::B160; //henrysyp
+
 use revm::{
     db::{CacheDB, DatabaseRef},
     precompile::{Precompiles, SpecId},
