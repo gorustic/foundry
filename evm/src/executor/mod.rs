@@ -21,6 +21,9 @@ use ethers::{
     types::Log,
 };
 use foundry_common::{abi::IntoFunction, evm::Breakpoints};
+
+use revm::primitives::B160; //henrysyp
+
 use revm::primitives::hex_literal::hex;
 /// Reexport commonly used revm types
 pub use revm::primitives::{Env, SpecId};
